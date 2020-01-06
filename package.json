@@ -1,0 +1,24 @@
+{
+  "name": "zinc.coop",
+  "version": "1.0.0",
+  "description": "Public website for zinc.coop",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "ncp": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinc-collective/zinc.coop.git"
+  },
+  "author": "Zinc Collective LLC",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/zinc-collective/zinc.coop/issues"
+  },
+  "homepage": "https://github.com/zinc-collective/zinc.coop#readme"
+}
