@@ -9,6 +9,7 @@
     "ncp": "^2.0.0"
   },
   "scripts": {
+    "prebuild": "pandoc src/operating-agreement/index.html -o src/operating-agreement/index.pdf",
     "build": "ncp src dist",
     "deploy": "gh-pages --dist dist"
   },
