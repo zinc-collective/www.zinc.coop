@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "Public website for zinc.coop",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "ncp": "^2.0.0"
   },
   "scripts": {
+    "start": "eleventy --serve",
     "prebuild": "pandoc src/operating-agreement/index.html -o src/operating-agreement/index.pdf",
-    "build": "ncp src dist",
-    "deploy": "gh-pages --dist dist"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
