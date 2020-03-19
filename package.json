@@ -14,7 +14,7 @@
     "start": "concurrently --kill-others \"npm run css-watch\" \"npm run dev\"",
     "css-build": "node-sass src/_sass/main.scss dist/css/main.css",
     "css-watch": "npm run css-build && npm run css-build -- --watch",
-    "prebuild": "pandoc src/operating-agreement/index.html -o src/operating-agreement/index.pdf",
+    "after-build": "pandoc dist/operating-agreement/index.html -o dist/operating-agreement/index.pdf",
     "build": "eleventy && npm run css-build",
     "dev": "eleventy --serve"
   },
