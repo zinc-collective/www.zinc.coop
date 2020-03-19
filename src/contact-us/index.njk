@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+---
+<section id="contact-info" class="hero">
+  <div class="hero-body">
+    <div class="containers">
+      <h2 class="title">Contact Info</h2>
+      <p class="subtitle">We are <a href="https://twitter.com/ZincCooperative">on Twitter @ZincCooperative<a/></p>
+      <form id="new_inbound_message" action="https://www.wegotyourback.today/inbound_messages" accept-charset="UTF-8" method="post">
+        <div class="content">
+          <input name="utf8" type="hidden" value="✓">
+          <input type="hidden" value="ebb3938e-683c-482a-8755-ee7fa7e3e64c" name="inbound_message[inbox_id]" id="inbound_message_inbox_id">
+
+          <div data-field="inboundmessage[sender_name]" class="field">
+            <div class="control">
+              <label for="inbound_message_sender_name" class="label">Your Name</label>
+              <input type="text" name="inbound_message[sender_name]" id="inbound_message_sender_name" class="input">
+            </div>
+          </div>
+
+          <div data-field="inboundmessage[sender_email]" class="field">
+            <label for="inbound_message_sender_email" class="label">Your Email</label>
+
+            <input type="text" name="inbound_message[sender_email]" id="inbound_message_sender_email" class="input">
+          </div>
+
+          <div data-field="inboundmessage[raw_body]" class="field">
+            <label for="inbound_message_raw_body" class="label">Message</label>
+            <textarea name="inbound_message[raw_body]" id="inbound_message_raw_body" class="textarea"></textarea>
+          </div>
+
+          <input type="submit" name="commit" value="Send Message" data-disable-with="Send Message" class="button">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
