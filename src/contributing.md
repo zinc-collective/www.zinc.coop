@@ -10,8 +10,8 @@ Your time is valuable, so let's get started!
 Zinc moves forward thanks to two kinds of workers. _Contributors_, who suggest
 and build changes to our software; and _Maintainers_, who decide if, when, and
 how to apply the suggestions. Anyone and everyone can be a Contributor! All we
-ask is that Contributors follow a few [Ground Rules][contributor-ground-rules]
-to help Zinc Maintainers and Contributors work well together.
+ask is that Contributors follow a few ground rules to help Zinc Maintainers and
+Contributors work well together.
 
 The keywords _must_, _must not_, and _should_ in this document are to be
 interpreted as described in [RFC 2119][rfc-2119].
@@ -35,11 +35,11 @@ interpreted as described in [RFC 2119][rfc-2119].
 
 ## How can I contribute...
 
-### Features?
+### Features or requests?
 
 Gaps between what a Contributor _wishes_ a product did and what it does is a
-_feature_. Small, incremental features with clear use cases are the easiest and
-fastest to build.
+_missing feature_. Small, incremental features with clear use cases are the
+easiest and fastest to build.
 
 Contributors are encouraged to [create a feature requests in the issue
 tracker][issue-tracker].
@@ -47,7 +47,7 @@ tracker][issue-tracker].
 To start building the feature, review the [development
 workflow][development-workflow].
 
-### Bug fixes?
+### Bug reports or fixes?
 
 Gaps between what a Contributor _expects_ a product to do and what it _actually
 does_ is a _*bug*_. Bug reports that clearly express what was expected to happen
@@ -60,7 +60,7 @@ features.
 If you want to try squashing the bug yourself; review the [development
 workflow][development-workflow].
 
-### Security concerns?
+### Security concerns or patches?
 
 We take security seriously, but that doesn't mean we will always get it right.
 We encourage Contributors to [create a security report][issue-tracker] with
