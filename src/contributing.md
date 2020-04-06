@@ -27,9 +27,9 @@ interpreted as described in [RFC 2119][rfc-2119].
 ### Maintainer Ground Rules
 
 - Maintainers _must_ comply with Zinc's [code of conduct][code-of-conduct].
-- Maintainers _must_ ensure that all feedback provided to Contributors is
-  specific, actionable, and kind.
 - Maintainers _must not_ erase authorship information from any Contributors.
+- Maintainers _should_ ensure that all feedback provided to Contributors is
+  specific, actionable, and kind.
 - Maintainers _should_ respond to Contributors' issues, comments, and patches
   within two weeks.
 
