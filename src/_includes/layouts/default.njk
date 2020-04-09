@@ -5,55 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Zinc Collective</title>
     <link rel="stylesheet" href="/styles/default.css">
-    <script defer src="/script.js"></script>
+    <script defer="defer" src="/script.js"></script>
   </head>
   <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="/">
-            Home
-          </a>
+    <nav role="navigation" aria-label="main navigation">
+      <a href="/">Home</a>
 
-          <a class="navbar-item" href="/product-and-services">
-            Product and Services
-          </a>
+      <a href="/product-and-services">Product and Services</a>
 
-          <a class="navbar-item" href="/financial-reports">
-            Financial Reports
-          </a>
+      <a href="/financial-reports">Financial Reports</a>
 
-          <a class="navbar-item" href="/meeting-notes">
-            Meeting Notes
-          </a>
+      <a href="/meeting-notes">Meeting Notes</a>
 
-          <a class="navbar-item" href="/operating-agreement">
-            Operating Agreement
-          </a>
+      <a href="/operating-agreement">Operating Agreement</a>
 
-          <a class="navbar-item" href="/contact-us">
-            Contact Us
-          </a>
-        </div>
-      </div>
+      <a href="/contact-us">Contact Us</a>
 
-      <div class="navbar-brand">
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
     </nav>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
 
-    {{ content | safe }}
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-        </a>
-        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The Zinc Collective Website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.zinc.coop/" property="cc:attributionName" rel="cc:attributionURL">Zinc Collective LLC</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-      </div>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
+      </a>
+      <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The Zinc Collective Website</span>
+      by
+      <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.zinc.coop/" property="cc:attributionName" rel="cc:attributionURL">Zinc Collective LLC</a>
+      is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
     </footer>
   </body>
 </html>

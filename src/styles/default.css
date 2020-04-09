@@ -1,5 +1,63 @@
 @tailwind base;
 
+body {
+  @apply bg-purple-900 text-purple-50 max-w-lg m-auto text-xl leading-relaxed;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold mt-2;
+}
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl ;
+}
+
+a {
+  @apply text-pink-200 underline;
+}
+
+a:hover {
+  @apply text-pink-50;
+}
+
+a:visited {
+  @apply text-pink-400;
+}
+a:visited:hover {
+  @apply text-pink-50;
+}
+
+
+nav a {
+  @apply p-2;
+}
+nav a:first-of-type {
+  @apply pl-0;
+}
+
+ul, p {
+  @apply my-2;
+}
+ul li {
+  @apply list-disc;
+}
+
+ol li {
+  @apply list-decimal;
+}
+li {
+  @apply list-outside leading-tight;
+}
+
 @tailwind components;
 
 @tailwind utilities;
