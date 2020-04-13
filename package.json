@@ -12,7 +12,7 @@
   "scripts": {
     "after-build": "pandoc dist/operating-agreement/index.html -o dist/operating-agreement/index.pdf",
     "build": "eleventy",
-    "start": "eleventy --serve"
+    "dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,96 @@
 @tailwind base;
 
+body {
+  @apply bg-purple-900 text-purple-50 max-w-lg m-auto text-xl leading-relaxed;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold mt-2;
+}
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl ;
+}
+
+a {
+  @apply text-pink-200 underline;
+}
+
+a:hover {
+  @apply text-pink-50;
+}
+
+a:visited {
+  @apply text-pink-400;
+}
+a:visited:hover {
+  @apply text-pink-50;
+}
+
+
+nav {
+  @apply text-justify;
+}
+
+ul, p {
+  @apply my-2;
+}
+ul li {
+  @apply list-disc;
+}
+
+ol li {
+  @apply list-decimal;
+}
+li {
+  @apply list-outside leading-tight;
+}
+
+
+input[type="submit"],button {
+  @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-50 bg-purple-600 transition ease-in-out duration-150;
+}
+
+input[type="submit"]:active,button:active {
+  @apply bg-purple-700;
+}
+input[type="submit"]:focus,button:focus {
+  @apply outline-none border-purple-700 shadow-outline-purple;
+}
+
+input[type="submit"]:hover,button:hover {
+  @apply bg-purple-500;
+}
+
+label {
+  @apply block font-medium;
+}
+
+form .control-group {
+  @apply mt-6 grid row-gap-6 col-gap-4 grid-cols-6;
+}
+
+form .control-group .control {
+  @apply col-span-6;
+}
+
+.control-group .control .field {
+  @apply mt-1 rounded-md shadow-sm;
+}
+
+input[type="email"],input[type="text"],textarea {
+  @apply form-input block w-full transition duration-150 ease-in-out text-purple-900;
+}
+
 @tailwind components;
 
 @tailwind utilities;
