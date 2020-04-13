@@ -3,10 +3,8 @@ module.exports = function(config) {
   let env = process.env.ELEVENTY_ENV;
 
   // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/base.njk');
-
-  // pass some assets right through
-  config.addPassthroughCopy("./src");
+  config.addLayoutAlias('default', 'layouts/default.njk');
+  config.addPassthroughCopy("*.pdf", "CNAME");
 
   return {
     dir: {
@@ -17,6 +15,5 @@ module.exports = function(config) {
     templateFormats: ["html", "njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
-    passthroughFileCopy: true
   }
 }

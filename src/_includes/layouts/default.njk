@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Zinc Collective</title>
+    <link rel="stylesheet" href="/styles/default.css">
+    <script defer="defer" src="/script.js"></script>
+  </head>
+  <body>
+    <nav role="navigation" aria-label="main navigation">
+      <a href="/">Home</a>
+
+      <a href="/product-and-services">Product and Services</a>
+
+      <a href="/financial-reports">Financial Reports</a>
+
+      <a href="/meeting-notes">Meeting Notes</a>
+
+      <a href="/operating-agreement">Operating Agreement</a>
+
+      <a href="/contact-us">Contact Us</a>
+
+    </nav>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
+      </a>
+      <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The Zinc Collective Website</span>
+      by
+      <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.zinc.coop/" property="cc:attributionName" rel="cc:attributionURL">Zinc Collective LLC</a>
+      is licensed under a
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </footer>
+  </body>
+</html>
