@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/default.njk
 title: Zinc's Code of Conduct
 ---
 
