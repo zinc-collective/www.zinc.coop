@@ -52,7 +52,7 @@ ol li {
   @apply list-decimal;
 }
 li {
-  @apply list-outside leading-tight;
+  @apply list-outside;
 }
 
 
@@ -92,7 +92,7 @@ input[type="email"],input[type="text"],textarea {
 }
 
 footer {
-  @apply text-sm;
+  @apply text-base;
 }
 @tailwind components;
 
