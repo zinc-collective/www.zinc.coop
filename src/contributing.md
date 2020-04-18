@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/default.njk
 ---
 
 Welcome! First off; _**THANK YOU**_ for your interest in contributing to Zinc!
