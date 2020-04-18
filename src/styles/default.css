@@ -38,7 +38,7 @@ a:visited:hover {
 
 
 nav {
-  @apply text-justify;
+  @apply flex justify-between;
 }
 
 ul, p {
@@ -91,6 +91,9 @@ input[type="email"],input[type="text"],textarea {
   @apply form-input block w-full transition duration-150 ease-in-out text-purple-900;
 }
 
+footer {
+  @apply text-sm;
+}
 @tailwind components;
 
 @tailwind utilities;

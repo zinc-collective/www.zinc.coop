@@ -9,25 +9,15 @@
   </head>
   <body>
     <nav role="navigation" aria-label="main navigation">
-      <a href="/">Home</a>
-
       <a href="/product-and-services">Product and Services</a>
-
-      <a href="/financial-reports">Financial Reports</a>
-
-      <a href="/meeting-notes">Meeting Notes</a>
-
-      <a href="/operating-agreement">Operating Agreement</a>
-
       <a href="/contact-us">Contact Us</a>
-
     </nav>
     <main>
       {{ content | safe }}
     </main>
     <footer>
-
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
         <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
       </a>
       <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The Zinc Collective&trade;&copy; Website</span>
@@ -35,6 +25,19 @@
       <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.zinc.coop/" property="cc:attributionName" rel="cc:attributionURL">Zinc Collective, LLC</a>
       is licensed under a
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contributing">Become a Contributor</a></li>
+          <li><a href="/code-of-conduct">Code of Conduct</a></li>
+        </ul>
+        <ul>
+          <li><a href="/financial-reports">Financial Reports</a></li>
+          <li><a href="/meeting-notes">Meeting Notes</a></li>
+          <li><a href="/operating-agreement">Operating Agreement</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
