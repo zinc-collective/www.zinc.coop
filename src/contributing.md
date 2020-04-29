@@ -1,5 +1,6 @@
 ---
 layout: layouts/default.njk
+title: Become a Zinc Contributor
 ---
 
 Welcome! First off; _**THANK YOU**_ for your interest in contributing to Zinc!

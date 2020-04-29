@@ -3,31 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Zinc Collective</title>
+    <title>{{ title | default("The Zinc Collective") }}</title>
     <link rel="stylesheet" href="/styles/default.css">
     <script defer="defer" src="/script.js"></script>
   </head>
-  <body>
-    <nav role="navigation" aria-label="main navigation">
-      <a href="/">Home</a>
-
-      <a href="/product-and-services">Product and Services</a>
-
-      <a href="/financial-reports">Financial Reports</a>
-
-      <a href="/meeting-notes">Meeting Notes</a>
-
-      <a href="/operating-agreement">Operating Agreement</a>
-
-      <a href="/contact-us">Contact Us</a>
-
-    </nav>
+  <body class="p-2">
     <main>
+      <h1>{{ title }}</h1>
       {{ content | safe }}
     </main>
     <footer>
+      <nav class="flex flex-wrap px-16" role="navigation" aria-label="main navigation">
 
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <ul class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <li><a href="/">Home</a></li>
+          <li><a href="/product-and-services">Product and Services</a></li>
+          <li><a href="/contributing">Become a Contributor</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+
+        <ul  class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <li><a href="/operating-agreement">Operating Agreement</a></li>
+          <li><a href="/code-of-conduct">Code of Conduct</a></li>
+          <li><a href="/financial-reports">Financial Reports</a></li>
+          <li><a href="/meeting-notes">Meeting Notes</a></li>
+        </ul>
+      </nav>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
         <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"/>
       </a>
       <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The Zinc Collective&trade;&copy; Website</span>
@@ -35,6 +38,7 @@
       <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.zinc.coop/" property="cc:attributionName" rel="cc:attributionURL">Zinc Collective, LLC</a>
       is licensed under a
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
     </footer>
   </body>
 </html>
