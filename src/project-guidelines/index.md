@@ -4,7 +4,7 @@ layout: layouts/default.njk
 
 # Project Guideline
 ## What?
-This is a list of guidelines to consider following for Zinc projects. It was initially created using thoughts/ideas from our Notabli Retrospective, but ideally will become a living document, contributed to over time.
+We've learned by doing that there are some things that make new projects flow more smoothly. This is a living document that will change over time, and was last updated on May 5th, 2020.
 ## Recommendations
 * Agree on project priorities at the start.
     * Examples: The goal of Project A is to become profitable. The goal of Project B is to learn about SEO.
