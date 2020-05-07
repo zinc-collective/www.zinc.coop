@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
+title: Operating Agreement of Zinc Collective, LLC, a California Limited Liability Company
 ---
-
-# Operating Agreement of Zinc Collective, LLC, a California Limited Liability Company</h1>
 To produce software requires only imagination, thoughtful work, and the empathy to truly understand the needs of others.
 Zinc exists so all who contribute to the design, development, maintenance and distribution of software may derive permanent economic benefit from the software they create.
 Zinc seeks to create long term and immediate economic and ecological security for its members through the practical and equitable decentralization of power.

@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
+title: Project Guideline
 ---
-
-# Project Guideline
 ## What?
 We've learned by doing that there are some things that make new projects flow more smoothly. This is a living document that will change over time, and was last updated on May 5th, 2020.
 ## Recommendations

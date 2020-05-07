@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
+title: Meeting Notes
 ---
-# Meeting Notes
-
 We currently have a monthly members-only meeting. We will publish meeting summaries here.
 
 ## Member meeting - April 17, 2020
