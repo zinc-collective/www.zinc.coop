@@ -7,7 +7,7 @@ We currently have a monthly members-only meeting. We will publish meeting summar
 
 ## Member meeting - April 17, 2020
 
-*   Reviewed [Zinc's Q1 2020 finances](/financial-reports/#2020-q1) in preperation to publish them.
+*   Reviewed [Zinc's Q1 2020 finances](/financial-overview/#2020-q1) in preperation to publish them.
 *   Reviewed incoming leads for project or client work. Decided to pursue three client partnerships.
 *   Reviewed existing projects. Decided to clearly express our needs from an existing client to decide whether the relationship has long-term viability. Decided to ramp up efforts on modernizing Moment Park.
 *   Discussed amending operating agreement to reduce unilateral spending decisions. General agreement with a formal proposal to be voted on via email.

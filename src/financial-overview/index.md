@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
 ---
-# Financial Reports for Zinc Collective, LLC
+# Financial Overview for Zinc Collective, LLC
 
 We publish our Profit and Loss and Balance Sheet reports on a quarterly and annual basis as part of our commitment to public and community governance and oversight.
 
