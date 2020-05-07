@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-purple-900 text-purple-50 max-w-lg m-auto text-xl leading-relaxed;
+  @apply bg-purple-900 text-purple-50 m-auto text-xl leading-relaxed;
 }
 
 h1, h2, h3, h4 {
