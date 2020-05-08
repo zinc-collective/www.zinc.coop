@@ -7,14 +7,14 @@ It serves primarily as a public repository of information about the cooperative.
 ## Contributing
 
 1. Clone the repository
-2. Read the contents of `bin/setup`, make sure you understand it; and then run it.
-3. Make your desired changes to the HTML files
-4. Make [a commit that explains your motivation for the change you made](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-5. Submit a patch!
+1. Read the contents of `bin/setup`, make sure you understand it; and then run it.
+1. Run `npm i` to install all dependencies.
+1. Run `npm run dev` to start development server.
+1. Make your desired changes to the HTML files.
+1. Make [a commit that explains your motivation for the change you made](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+1. Submit a patch!
 
 
 ## Deploying
 
-Run `npm run build` to build site, then run `npm run deploy` to deploy it.
-
-Anyone with permissions to commit to the hosted repository also has permission to deploy the site.
+Once code is merged into master, www.zinc.coop will be auto-deployed.
