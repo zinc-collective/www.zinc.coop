@@ -8,7 +8,6 @@ It serves primarily as a public repository of information about the cooperative.
 
 1. Clone the repository
 1. Read the contents of `bin/setup`, make sure you understand it; and then run it.
-1. Run `npm i` to install all dependencies.
 1. Run `npm run dev` to start development server.
 1. Make your desired changes to the HTML files.
 1. Make [a commit that explains your motivation for the change you made](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
@@ -17,4 +16,4 @@ It serves primarily as a public repository of information about the cooperative.
 
 ## Deploying
 
-Once code is merged into master, www.zinc.coop will be auto-deployed.
+Once code is merged into development, www.zinc.coop will be auto-deployed.
