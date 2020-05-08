@@ -6,3 +6,6 @@ brew install pandoc
 brew cask install basictex
 
 echo 'Be sure to add texlive to your path by adding `export PATH="/usr/local/texlive/2019basic/bin/x86_64-darwin:$PATH"` to your .zshrc or .bashrc'
+
+# Install eleventy
+npm install
