@@ -10,7 +10,7 @@ Notabli helps parents safely share their children's childhood moments with their
 
 ### [Catalog Choice](https://www.catalogchoice.org)
 
-[Catalog Choice](https://www.catalochoice.org) helps people reduce their environmental footprint by opting out of catalog mailings. We spend two to three days a month updating [Catalog Choice](https://www.catalogchoice.org) for [The Story of Stuff project](https://storyofstuff.org/).
+[Catalog Choice](https://www.catalogchoice.org) helps people reduce their environmental footprint by opting out of catalog mailings. We spend two to three days a month updating [Catalog Choice](https://www.catalogchoice.org) for [The Story of Stuff project](https://storyofstuff.org/).
 
 ## In Passive Maintenance
 
