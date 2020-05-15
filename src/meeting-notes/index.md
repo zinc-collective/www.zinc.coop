@@ -4,6 +4,15 @@ title: Meeting Notes
 ---
 We currently have a monthly members-only meeting. We will publish meeting summaries here.
 
+## Member meeting - May 15, 2020
+
+* Amended our Operating Agreement to consider [any single transaction of $100 or more a Major Decision and require Quorum](/operating-agreement/#d-9-b-major-decisions)
+* Decided to pursue [Convene](/convene) aggressively and continue client discovery and development activities in parallel with more deeply learning WebRTC and infrastructure management.
+* Decided to prioritize leveraging off-the-shelf technology when possible for Convene, with the intent to backport functionality into [We Got Your Back](https://www.wegotyourback.today/) or [Compensated](/compensated).
+* Decided to experiment with personal and organization goal setting to make it easier to find opportunities to collaborate and co-conspire in a mutually beneficial manner.
+* Appointed Zee as "front-line" for production errors, with Cheryl and Tom backing him up by making structural improvements.
+* Decided to map out how our products and services feed into one another.
+
 ## Member meeting - April 17, 2020
 
 *   Reviewed [Zinc's Q1 2020 finances](/financial-overview/#2020-q1) in preperation to publish them.
