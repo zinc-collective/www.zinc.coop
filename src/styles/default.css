@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-purple-900 text-purple-50 max-w-lg m-auto text-xl leading-relaxed;
+  @apply bg-purple-900 text-purple-50;
 }
 
 h1, h2, h3, h4 {
@@ -33,7 +33,7 @@ a:visited {
   @apply text-pink-400;
 }
 a:visited:hover {
-  @apply text-pink-50;
+  @apply text-pink-200;
 }
 
 
