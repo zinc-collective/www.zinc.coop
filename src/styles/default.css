@@ -91,9 +91,14 @@ input[type="email"],input[type="text"],textarea {
   @apply form-input block w-full transition duration-150 ease-in-out text-purple-900;
 }
 
+main {
+  @apply px-6 py-6;
+}
+
 footer {
   @apply text-base;
 }
+
 @tailwind components;
 
 @tailwind utilities;
