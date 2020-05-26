@@ -16,4 +16,4 @@ It serves primarily as a public repository of information about the cooperative.
 
 ## Deploying
 
-Once code is merged into development, www.zinc.coop will be auto-deployed.
+Changes merged into the `development` branch are auto-deployed to [https://www.zinc.coop].
