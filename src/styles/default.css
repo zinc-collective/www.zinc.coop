@@ -90,4 +90,35 @@ footer {
 
 @tailwind components;
 
+.header-container {
+  @apply flex flex-row justify-center text-center;
+}
+
+.header-item {
+  @apply px-2 py-2 text-white;
+}
+
+.header-item:hover {
+  @apply rounded bg-purple-500;
+}
+
+.dropdown-container {
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  @apply absolute bg-purple-700 rounded z-10;
+}
+
+.header-item:hover > .dropdown-container,
+.header-item:focus-within > .dropdown-container,
+.header-item .dropdown-container:hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-item {
+  @apply block p-4 w-full;
+}
+
 @tailwind utilities;

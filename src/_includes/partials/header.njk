@@ -1,17 +1,26 @@
-<nav class="flex flex-wrap px-16" role="navigation" aria-label="main navigation">
-  <ul class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
-    <li><a href="/">Home</a></li>
-    <li><a href="/product-and-services">Product and Services</a></li>
-    <li><a href="/contributing">Become a Contributor</a></li>
-    <li><a href="/maintaining">Become a Maintainer</a></li>
-    <li><a href="/contact-us">Contact Us</a></li>
-  </ul>
+<header class="header-container" role="navigation" aria-label="main navigation">
 
-  <ul  class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
-    <li><a href="/operating-agreement">Operating Agreement</a></li>
-    <li><a href="/code-of-conduct">Code of Conduct</a></li>
-    <li><a href="/financial-overview">Financial Overview</a></li>
-    <li><a href="/meeting-notes">Meeting Notes</a></li>
-    <li><a href="/project-guidelines">Project Guidelines</a></li>
-  </ul>
-</nav>
+  <a class="header-item" href="/">Home</a>
+  <a class="header-item" href="/product-and-services">Products and Services</a>
+
+  <div class="header-item dropdown-btn" aria-haspopup="true">
+    Join us
+    <div class="dropdown-container" aria-label="submenu">
+      <a class="dropdown-item" href="/contributing">Become a Contributor</a>
+      <a class="dropdown-item" href="/maintaining">Become a Maintainer</a>
+      <a class="dropdown-item" href="/project-guidelines">Project Guidelines</a>
+      <a class="dropdown-item" href="/code-of-conduct">Code of Conduct</a>
+      <a class="dropdown-item" href="/operating-agreement">Operating Agreement</a>
+    </div>
+  </div>
+
+  <div class="header-item dropdown-btn" aria-haspopup="true">
+    About us
+    <div class="dropdown-container flex flex-row justify-center align-middle" aria-label="submenu">
+      <a class="dropdown-item" href="/financial-overview">Financial Overview</a>
+      <a class="dropdown-item" href="/meeting-notes">Meeting Notes</a>
+    </div>
+  </div>
+
+  <a class="header-item" href="/contact-us">Contact Us</a>
+</header>

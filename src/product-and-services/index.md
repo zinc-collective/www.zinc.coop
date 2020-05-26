@@ -8,6 +8,10 @@ title: Products and Services
 
 [Convene](https://www.zinc.coop/convene)(Convene creates human connection through safe, accessible and reliable video conferencing.
 
+### [Compensated](https://github.com/zinc-collective/compensated)
+
+[Compensated](https://github.com/zinc-collective/compensated) makes it easy for product and service developers to accept money from whichever payment processor they prefer with a low implementation or switching costs.
+
 ### [We Got Your Back Today](https://www.wegotyourback.today)
 
 [We Got Your Back Today](https://www.wegotyourback.today) is a self-or-professionally hostable support inbox for indie developers, hobbyists, and systems administrators.
