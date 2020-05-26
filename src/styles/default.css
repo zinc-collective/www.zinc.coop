@@ -22,7 +22,7 @@ h4 {
 }
 
 a {
-  @apply text-pink-200 underline;
+  @apply text-pink-200;
 }
 
 a:hover {

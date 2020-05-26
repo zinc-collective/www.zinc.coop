@@ -4,19 +4,19 @@ title: Products and Services
 ---
 ## In Active Development
 
-### [Notabli](https://www.notabli.com)
+### [Convene](https://www.zinc.coop/convene)
 
-Notabli helps parents safely share their children's childhood moments with their extended family. We spend four to eight days a month updating [Notabli](https://www.notabli.com).
+[Convene](https://www.zinc.coop/convene)(Convene creates human connection through safe, accessible and reliable video conferencing.
+
+### [We Got Your Back Today](https://www.wegotyourback.today)
+
+[We Got Your Back Today](https://www.wegotyourback.today) is a self-or-professionally hostable support inbox for indie developers, hobbyists, and systems administrators.
 
 ### [Catalog Choice](https://www.catalogchoice.org)
 
 [Catalog Choice](https://www.catalogchoice.org) helps people reduce their environmental footprint by opting out of catalog mailings. We spend two to three days a month updating [Catalog Choice](https://www.catalogchoice.org) for [The Story of Stuff project](https://storyofstuff.org/).
 
 ## In Passive Maintenance
-
-### [We Got Your Back Today](https://www.wegotyourback.today)
-
-[We Got Your Back Today](https://www.wegotyourback.today) is a self-or-professionally hostable support inbox for indie developers, hobbyists, and systems administrators.
 
 ### [MomentPark](https://www.momentpark.com)
 
