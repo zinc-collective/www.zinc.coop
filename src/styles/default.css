@@ -36,21 +36,10 @@ a:visited:hover {
   @apply text-pink-200;
 }
 
-
-nav {
-  @apply flex justify-between;
-}
-
 ul, p {
   @apply my-2;
 }
-ul li {
-  @apply list-disc;
-}
 
-ol li {
-  @apply list-decimal;
-}
 li {
   @apply list-outside;
 }
