@@ -7,6 +7,8 @@ module.exports = function(config) {
   config.addPassthroughCopy("src/CNAME");
   config.addPassthroughCopy("src/**/*.pdf");
 
+  config.addWatchTarget("./src/styles/");
+
   return {
     dir: {
       input: "src",
