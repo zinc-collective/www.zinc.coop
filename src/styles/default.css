@@ -95,11 +95,11 @@ footer {
 }
 
 .header-item {
-  @apply px-2 py-2 text-white;
+  @apply px-2 py-2 text-pink-400;
 }
 
 .header-item:hover {
-  @apply rounded bg-purple-500;
+  @apply rounded bg-purple-500 text-pink-50;
 }
 
 .dropdown-container {
