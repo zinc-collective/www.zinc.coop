@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-purple-900 text-purple-50 max-w-lg m-auto text-xl leading-relaxed;
+  @apply bg-purple-900 text-purple-50;
 }
 
 h1, h2, h3, h4 {
@@ -22,7 +22,7 @@ h4 {
 }
 
 a {
-  @apply text-pink-200 underline;
+  @apply text-pink-200;
 }
 
 a:hover {
@@ -33,24 +33,13 @@ a:visited {
   @apply text-pink-400;
 }
 a:visited:hover {
-  @apply text-pink-50;
-}
-
-
-nav {
-  @apply flex justify-between;
+  @apply text-pink-200;
 }
 
 ul, p {
   @apply my-2;
 }
-ul li {
-  @apply list-disc;
-}
 
-ol li {
-  @apply list-decimal;
-}
 li {
   @apply list-outside;
 }
@@ -91,9 +80,45 @@ input[type="email"],input[type="text"],textarea {
   @apply form-input block w-full transition duration-150 ease-in-out text-purple-900;
 }
 
+main {
+  @apply px-6 py-6;
+}
+
 footer {
   @apply text-base;
 }
+
 @tailwind components;
+
+.header-container {
+  @apply flex flex-row justify-center text-center;
+}
+
+.header-item {
+  @apply px-2 py-2 text-pink-400;
+}
+
+.header-item:hover {
+  @apply rounded bg-purple-500 text-pink-50;
+}
+
+.dropdown-container {
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  @apply absolute bg-purple-700 rounded z-10;
+}
+
+.header-item:hover > .dropdown-container,
+.header-item:focus-within > .dropdown-container,
+.header-item .dropdown-container:hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-item {
+  @apply block p-4 w-full;
+}
 
 @tailwind utilities;
