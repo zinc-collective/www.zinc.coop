@@ -98,7 +98,8 @@ footer {
   @apply px-2 py-2 text-pink-400;
 }
 
-.header-item:hover {
+.header-item:hover,
+.header-item:active {
   @apply rounded bg-purple-500 text-pink-50;
 }
 
@@ -110,8 +111,10 @@ footer {
 }
 
 .header-item:hover > .dropdown-container,
+.header-item:active > .dropdown-container,
 .header-item:focus-within > .dropdown-container,
-.header-item .dropdown-container:hover {
+.header-item .dropdown-container:hover,
+.header-item .dropdown-container:active {
   visibility: visible;
   display: block;
   opacity: 1;
