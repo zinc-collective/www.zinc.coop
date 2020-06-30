@@ -4,6 +4,15 @@ title: Meeting Notes
 ---
 We currently have a monthly members-only meeting. We will publish meeting summaries here.
 
+## Member meeting - June 19, 2020
+
+* Discussed tax implications of accepting sponsorships and dues from the [Zinc Community Collective](https://opencollective.com/zinc-community).
+* Discussed seeking non-profit status or sprouting a sibling non-profit organization.
+* Discussed conversion rates of non-members to members and systemic roadblocks; such as tax implications, uncertainty, cognitive overhead.
+* Decided to allocate $100 for a Patronage Redemption, for work performed in Q2 2020 with details TBD.
+* Discussed purpose of the Zinc Community Collective
+* Discussed considerations when deciding to "go live" with a product or service that directs revenues into Zinc's bank accounts. Particularly regarding how not to overly constrain member flexibility to pursue initiatives while not creating risk for other members.
+
 ## Member meeting - May 15, 2020
 
 * Amended our Operating Agreement to consider [any single transaction of $100 or more a Major Decision and require Quorum](/operating-agreement/#d-9-b-major-decisions)
