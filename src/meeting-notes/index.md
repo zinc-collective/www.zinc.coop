@@ -4,6 +4,14 @@ title: Meeting Notes
 ---
 We currently have a monthly members-only meeting. We will publish meeting summaries here.
 
+## Member meeting - July 17, 2020
+
+* Voted to renew our membership in the U.S. Federation of Worker Cooperatives
+* Reviewed the Q2 2020 financials
+* Voted to return the full capital account balance for a departing member in a single lump-sum.
+* Discussed strategy for onboarding new contributors and our capacity. We intend to ramp up regularly scheduled contributor-and-member only group design, testing, and programming sessions in mid Q3.
+
+
 ## Member meeting - June 19, 2020
 
 * Discussed tax implications of accepting sponsorships and dues from the [Zinc Community Collective](https://opencollective.com/zinc-community).
