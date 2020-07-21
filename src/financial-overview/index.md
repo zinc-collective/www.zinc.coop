@@ -4,6 +4,28 @@ title: Financial Overview for Zinc Collective, LLC
 ---
 We publish our Profit and Loss and Balance Sheet reports on a quarterly and annual basis as part of our commitment to public and community governance and oversight.
 
+## Q2 2020, April 1st through June 30th
+
+### Q2 2020 Profit and Loss
+
+We recorded a $709.78 profit in Q2 2020.
+
+We received $4,162.99 in gross receipts; split across Zinc Community Dues, Professional Services, and Product Income.
+
+Our largest costs were paying sub-contractors, paying our 2020 CA FTB taxes, and hosting and infrastructure.
+
+[Download Zinc Collective's 2020 Q2 Profit and Loss statement](./2020-q2-profit-and-loss.pdf)
+
+### Q2 2020 Balance Sheet
+
+100% of financial assets are held in an FDIC insured cash account holding $13,316.43.
+
+Zinc Collective carried a $3,525 liability in the form of a retainer for client services.
+
+[Download Zinc Collective's 2020 Q2 Balance Sheet](./2020-q2-balance-sheet.pdf)
+
+All representations of information are made as of June 30th, 2020
+
 ## Q1 2020, January 1st through March 31st
 
 ### Q1 2020 Profit and Loss
@@ -13,8 +35,6 @@ We recorded a $723.95 loss in Q1 2020
 We received $512 in gross receipts, all of which is attributable to our maintenance efforts on [Moment Park](https://www.momentpark.com/)
 
 Our largest costs were:
-
-*   Paying our $800 per year minimum California Franchise Tax for 2020
 *   Puchasing a $600 team license for [TailwindUI](https://tailwindui.com/) to streamline design and delivery of web sites and applications without a dedicated designer or front-end wizard.
 *   Hiring a tax professional to prepare and file our 2019 taxes.
 
