@@ -59,8 +59,8 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: upgrade-circle-ci
+              ignore: development
       - build-deploy:
           filters:
             branches:
-              only: upgrade-circle-ci
+              only: development
