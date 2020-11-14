@@ -1,9 +1,6 @@
 version: 2
 jobs:
   build:
-    branches:
-      only:
-        - development
     docker:
       - image: circleci/node:10.16.3
     steps:
@@ -26,6 +23,11 @@ jobs:
       - run:
           name: build-static-site
           command: npm run build && npm run after-build
+
+  deploy-prod:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
       - run:
           name: deploy-gh-pages
           command: |
@@ -37,3 +39,15 @@ jobs:
             git add -A
             git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
             git push --force --quiet https://${GITHUB_ACCESS_TOKEN}@github.com/zinc-collective/www.zinc.coop.git gh-pages > /dev/null 2>&1
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy-prod:
+          requires:
+            - build
+          filters:
+            branches:
+              only: development
