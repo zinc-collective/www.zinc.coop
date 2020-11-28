@@ -17,7 +17,7 @@ It serves primarily as a public repository of information about the cooperative.
 This site uses:
 * [Eleventy](https://www.11ty.dev/) as its static site generator
 * [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) as the templating language
-* [Tailwind CSS](https://tailwindcss.com/) as our CSS framework
+* [Tailwind UI](https://tailwindui.com/components) as our CSS and UI framework
 * [pandoc](https://pandoc.org/) to compile some parts of the site into PDF
 
 ## Design
