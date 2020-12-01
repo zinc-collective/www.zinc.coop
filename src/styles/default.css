@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-purple-900 text-purple-50;
+  @apply p-0 bg-zinc-dark-purple text-white;
 }
 
 h1, h2, h3, h4 {
@@ -22,18 +22,20 @@ h4 {
 }
 
 a {
-  @apply text-pink-200;
+  @apply text-zinc-hot-pink;
 }
 
 a:hover {
-  @apply text-pink-50;
+  @apply text-zinc-pastel-pink;
 }
 
+/* Visited states in same color as not-visited states. */
 a:visited {
-  @apply text-pink-400;
+  @apply text-zinc-hot-pink;
 }
+
 a:visited:hover {
-  @apply text-pink-200;
+  @apply text-zinc-pastel-pink;
 }
 
 ul, p {
@@ -46,18 +48,19 @@ li {
 
 
 input[type="submit"] {
-  @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-50 bg-purple-600 transition ease-in-out duration-150;
+  @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-zinc-dark-purple bg-zinc-hot-pink transition ease-in-out duration-150;
 }
 
 input[type="submit"]:active {
-  @apply bg-purple-700;
+  @apply bg-zinc-pastel-pink;
 }
+
 input[type="submit"]:focus {
-  @apply outline-none border-purple-700 shadow-outline-purple;
+  @apply outline-none shadow-outline-purple;
 }
 
 input[type="submit"]:hover {
-  @apply bg-purple-500;
+  @apply bg-zinc-pastel-pink;
 }
 
 label {
@@ -81,33 +84,37 @@ input[type="email"],input[type="text"],textarea {
 }
 
 main {
-  @apply px-6 py-6;
+  @apply px-6 py-6 bg-zinc-purple w-full;
 }
 
 footer {
-  @apply text-base;
+  @apply text-base border-t border-white p-6;
 }
 
 @tailwind components;
 
 .header-container {
-  @apply flex flex-row justify-center text-center;
+  @apply flex flex-row justify-center text-center w-full bg-zinc-purple py-6;
 }
 
 .header-item {
-  @apply px-2 py-2 text-pink-400;
+  @apply px-2 py-2 text-zinc-hot-pink bg-zinc-dark-purple border-t-2 border-l-2 border-b-2 border-zinc-hot-pink;
+}
+
+.header-item:last-child {
+  @apply border-r-2 border-zinc-hot-pink;
 }
 
 .header-item:hover,
 .header-item:active {
-  @apply rounded bg-purple-500 text-pink-50;
+  @apply bg-zinc-dark-purple text-zinc-hot-pink;
 }
 
 .dropdown-container {
   visibility: hidden;
   display: none;
   opacity: 0;
-  @apply absolute bg-purple-700 rounded z-10;
+  @apply absolute bg-zinc-dark-purple z-10;
 }
 
 .header-item:hover > .dropdown-container,
