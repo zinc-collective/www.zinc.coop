@@ -4,6 +4,28 @@ title: Financial Overview for Zinc Collective, LLC
 ---
 We publish our Profit and Loss and Balance Sheet reports on a quarterly and annual basis as part of our commitment to public and community governance and oversight.
 
+## Q3 2020, July 1st through September 30th
+
+### Q3 2020 Profit and Loss
+
+We recorded a $1,985.16 profit i3 Q2 2020.
+
+We received $3,537.44 in gross receipts; split across Zinc Community Dues, Professional Services, and Product Income.
+
+Our largest costs were paying sub-contractors and hosting and infrastructure.
+
+[Download Zinc Collective's 2020 Q3 Profit and Loss statement](./2020-q3-profit-and-loss.pdf)
+
+### Q3 2020 Balance Sheet
+
+100% of financial assets are held in an FDIC insured cash account holding $13,373.74.
+
+Zinc Collective carried a $3,000 liability in the form of a retainer for client services.
+
+[Download Zinc Collective's 2020 Q3 Balance Sheet](./2020-q3-balance-sheet.pdf)
+
+All representations of information are made as of September 30th, 2020
+
 ## Q2 2020, April 1st through June 30th
 
 ### Q2 2020 Profit and Loss
