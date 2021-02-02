@@ -131,4 +131,12 @@ footer {
   @apply block p-4 w-full;
 }
 
+.person-card {
+  @apply flex flex-row;
+}
+
+.person-card img {
+  @apply mr-4;
+}
+
 @tailwind utilities;
