@@ -139,6 +139,10 @@ footer {
   @apply flex flex-row;
 }
 
+.person-card h3 {
+  @apply mt-0;
+}
+
 .person-card img {
   @apply mr-4;
   width: 150px;
