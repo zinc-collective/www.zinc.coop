@@ -149,7 +149,7 @@ footer {
 }
 
 .person-card img {
-  @apply mr-4;
+  @apply mr-4 mb-4;
   width: 150px;
   height: 150px;
 }
