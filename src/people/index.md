@@ -21,6 +21,15 @@ people:
       interests: Facilitation, Dungeon Mastering, Community Outreach
       bio: >
           Tuxedo cats always looking dapper mew mew so groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked. Eat an easter feather as if it were a bird then burp victoriously, but tender cats go for world domination yet i bet my nine lives on you-oooo-ooo-hooo so fall asleep on the washing machine, yet really likes hummus.
+    - name: Ana Ulin
+      image: /people/img/anaulin.jpg
+      type: maintainer
+      location: Oakland, CA
+      links: { website: "https://anaulin.org", email: "mailto:ana@ulin.org" }
+      specialties: Backend, APIs, Infrastructure, Automation, Engineering Leadership
+      interests: Democratic Governance, Facilitation, Social Justice
+      bio: >
+          I am an experienced software engineer and engineering leader. I've worked at companies big and small, as an employee and as a contractor, as an individual contributor and as a manager. I stumbled upon Zinc during my search for better ways of working together, and I've been a happy contributor since September 2020. My engineering strengths lie in backend engineering, services and APIs. I can also help with automation, data integration, and engineering leadership and process coaching.
 ---
 
 {% for person in people -%}
