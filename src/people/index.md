@@ -18,17 +18,19 @@ people:
 ---
 
 {% for person in people -%}
-<div class="person-card">
-  <img src="{{ person.image }}" />
-  <div>
-    <h3>{{ person.name }}</h3>
-    {{ person.location }}
-    <ul>
-      {% for name, url in person.links -%}
-      <li><a href="{{ url }}">{{ name }}</a></li>
-      {% endfor -%}
-    </ul>
+<div class="person-container">
+  <div class="person-card">
+    <img src="{{ person.image }}" />
+    <div>
+      <h3>{{ person.name }}</h3>
+      {{ person.location }}
+      <ul>
+        {% for name, url in person.links -%}
+        <li><a href="{{ url }}">{{ name }}</a></li>
+        {% endfor -%}
+      </ul>
+    </div>
   </div>
+  <p>{{ person.bio }}</p>
 </div>
-<p>{{ person.bio }}</p>
 {% endfor -%}

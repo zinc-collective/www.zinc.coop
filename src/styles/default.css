@@ -131,6 +131,10 @@ footer {
   @apply block p-4 w-full;
 }
 
+.person-container {
+  @apply mb-12;
+}
+
 .person-card {
   @apply flex flex-row;
 }
