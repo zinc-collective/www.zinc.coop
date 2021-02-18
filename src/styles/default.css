@@ -141,6 +141,8 @@ footer {
 
 .person-card img {
   @apply mr-4;
+  width: 150px;
+  height: 150px;
 }
 
 @tailwind utilities;
