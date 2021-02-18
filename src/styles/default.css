@@ -143,6 +143,11 @@ footer {
   @apply mt-0;
 }
 
+.person-card li::before {
+  content: '>';
+  @apply mr-1;
+}
+
 .person-card img {
   @apply mr-4;
   width: 150px;
