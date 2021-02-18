@@ -132,7 +132,7 @@ footer {
 }
 
 .person-container {
-  @apply mb-12;
+  @apply mt-4 mb-12;
 }
 
 .person-card {
