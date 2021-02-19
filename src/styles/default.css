@@ -131,27 +131,38 @@ footer {
   @apply block p-4 w-full;
 }
 
-.person-container {
+.person {
   @apply mt-4 mb-12;
 }
 
-.person-card {
-  @apply flex flex-row;
+.person img {
+  @apply mr-4 mb-4;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  vertical-align: top;
 }
 
-.person-card h3 {
+.person-basics {
+  display: inline-block;
+}
+
+.person-basics h3 {
   @apply mt-0;
 }
 
-.person-card li::before {
+.person-basics li::before {
   content: '>';
   @apply mr-1;
 }
 
-.person-card img {
-  @apply mr-4 mb-4;
-  width: 150px;
-  height: 150px;
+.person-specialties {
+  @apply italic;
+}
+
+.person-specialties h4 {
+  display: inline-block;
+  @apply text-base not-italic;
 }
 
 @tailwind utilities;

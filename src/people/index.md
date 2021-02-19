@@ -4,22 +4,27 @@ title: People
 ---
 
 {% for person in people -%}
-<div class="person-container">
-  <div class="person-card">
-    <img src="{{ person.image }}" />
-    <div>
-      <h3>{{ person.name }}</h3>
-      {{ person.type }}<br/>
-      {{ person.location }}
-      <ul>
-        {% for name, url in person.links -%}
-        <li><a href="{{ url }}">{{ name }}</a></li>
-        {% endfor -%}
-      </ul>
-    </div>
+<div class="person">
+  <img src="{{ person.image }}" alt="{{ person.name }}"/>
+  <div class="person-basics">
+    <h3>{{ person.name }}</h3>
+    {{ person.type }}<br/>
+    {{ person.location }}
+    <ul>
+      {% for name, url in person.links -%}
+      <li><a href="{{ url }}">{{ name }}</a></li>
+      {% endfor -%}
+    </ul>
   </div>
-  <p><strong>Specialties:</strong> <em>{{ person.specialties }}</em></p>
-  <p><strong>Interests:</strong> <em>{{ person.interests }}</em></p>
+
+  <div class="person-specialties">
+    <h4>Specialties:</h4> {{ person.specialties }}
+  </div>
+
+  <div class="person-specialties">
+    <h4>Interests:</h4> {{ person.interests }}
+  </div>
+
   <p>{{ person.bio }}</p>
 </div>
 {% endfor -%}
