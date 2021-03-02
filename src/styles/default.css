@@ -87,6 +87,10 @@ main {
   @apply px-6 py-6 bg-zinc-purple w-full;
 }
 
+main p {
+  width: clamp(400px, 80%, 700px);
+}
+
 footer {
   @apply text-base border-t border-white p-6;
 }
