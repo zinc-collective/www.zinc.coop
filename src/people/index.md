@@ -5,7 +5,9 @@ title: People
 
 {% for person in people -%}
 <div class="person">
-  <img src="{{ person.image }}" alt="{{ person.name }}"/>
+  {% if person.image -%}
+    <img src="{{ person.image }}" alt="{{ person.name }}"/>
+  {% endif -%}
   <div class="person-basics">
     <h3>{{ person.name }}</h3>
     {{ person.type }}<br/>
