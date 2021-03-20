@@ -6,6 +6,7 @@ module.exports = function(config) {
   config.addLayoutAlias('default', 'layouts/default.njk');
   config.addPassthroughCopy("src/CNAME");
   config.addPassthroughCopy("src/**/*.pdf");
+  config.addPassthroughCopy("src/**/*.jpg")
 
   config.addWatchTarget("./src/styles/");
 
