@@ -2,27 +2,30 @@
 layout: layouts/default.njk
 title: Products and Services
 ---
-## In Active Development
 
-### [Convene]
+## Products
+
+### In Active Development
+
+#### [Convene]
 
 [Convene] Convene creates human connection through safe, accessible and reliable video conferencing.
 
-### [Compensated]
+#### [Compensated]
 
 [Compensated] makes it easy for product and service developers to accept money from whichever payment processor they prefer with a low implementation or switching costs.
 
-### [We Got Your Back Today]
+#### [We Got Your Back Today]
 
 [We Got Your Back Today] is a self-or-professionally hostable support inbox for indie developers, hobbyists, and systems administrators.
 
-### [Catalog Choice]
+#### [Catalog Choice]
 
 [Catalog Choice] helps people reduce their environmental footprint by opting out of catalog mailings. We spend two to three days a month updating [Catalog Choice] for [The Story of Stuff project].
 
-## In Passive Maintenance
+### In Passive Maintenance
 
-### [MomentPark]
+#### [MomentPark]
 
 [MomentPark] is a suite of digital photography and videography apps for iOS. It currently needs contributors to help update the applications to better support iOS 13.
 
@@ -32,3 +35,16 @@ title: Products and Services
 [Catalog Choice]: https://www.catalogchoice.org
 [The Story of Stuff project]: https://storyofstuff.org
 [MomentPark]: https://www.momentpark.com
+
+## Services
+
+In addition to our original products, some [Zinc Collective members](/people) are able to build, maintain and consult for values-aligned organizations. Our current capacity is in the areas of:
+
+* research & product strategy
+* design & user experience
+* back-end engineering
+* front-end development
+* quality assurance/testing
+* senior support, consulting and mentoring
+
+ [Contact us](/contact-us) to talk more.
