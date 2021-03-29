@@ -3,7 +3,7 @@
 # Pandoc is used to compile the source into pdf, epub, and html.
 brew install pandoc
 # BasicTex provides us with pdflatex and xelatex support
-brew cask install basictex
+brew install --cask basictex
 
 echo 'Be sure to add texlive to your path by adding `export PATH="/usr/local/texlive/2019basic/bin/x86_64-darwin:$PATH"` to your .zshrc or .bashrc'
 
