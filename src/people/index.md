@@ -3,6 +3,8 @@ layout: default
 title: People
 ---
 
+Some members of the Zinc Collective.
+
 {% for person in people -%}
 <div class="person">
   {% if person.image -%}
