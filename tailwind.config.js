@@ -1,4 +1,5 @@
 module.exports = {
+  content: [ 'dist/**/*.{html,js}' ],
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
