@@ -20,7 +20,6 @@ module.exports = class {
   async render({ rawCss, rawFilepath }) {
     return postcss([
       require("tailwindcss"),
-      require('@tailwindcss/ui'),
       require("autoprefixer")
     ])
       .process(rawCss, { from: rawFilepath })
