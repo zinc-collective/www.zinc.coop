@@ -56,7 +56,7 @@ input[type="submit"]:active {
 }
 
 input[type="submit"]:focus {
-  @apply outline-none shadow-outline-purple;
+  @apply outline-none ring-purple-50;
 }
 
 input[type="submit"]:hover {
@@ -68,7 +68,7 @@ label {
 }
 
 form .control-group {
-  @apply mt-6 grid row-gap-6 col-gap-4 grid-cols-6;
+  @apply mt-6 grid gap-y-6 gap-x-4 grid-cols-6;
 }
 
 form .control-group .control {

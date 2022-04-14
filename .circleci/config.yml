@@ -5,7 +5,7 @@ commands:
       - checkout
       - run:
           name: update-npm
-          command: 'sudo npm install -g npm@6'
+          command: npm install -g npm@8
       - run:
           name: install-npm-packages
           command: npm install
@@ -39,7 +39,7 @@ commands:
 executors:
   docker-executor:
     docker:
-      - image: circleci/node:10.16.3
+      - image: cimg/node:17.9.0
 
 jobs:
   build:
