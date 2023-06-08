@@ -11,7 +11,7 @@ title: Products and Services
 
 #### [Convene]
 
-An app that creates human connection through safe, accessible and reliable video conferencing.
+Your space on the web, fully configurable, developed and operated sustainably and in community. Current features include publishing content, selling and accepting payments.
 
 #### [MomentPark]
 
