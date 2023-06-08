@@ -7,24 +7,13 @@ title: Products and Services
 
 #### [Convene]
 
-[Convene] Convene creates human connection through safe, accessible and reliable video conferencing.
-
-#### [Compensated]
-
-[Compensated] makes it easy for product and service developers to accept money from whichever payment processor they prefer with a low implementation or switching costs.
-
-#### [Catalog Choice]
-
-[Catalog Choice] helps people reduce their environmental footprint by opting out of catalog mailings. It is part of [The Story of Stuff project].
+An app that creates human connection through safe, accessible and reliable video conferencing.
 
 #### [MomentPark]
 
-[MomentPark] is a suite of digital photography and videography apps for iOS. It currently needs contributors to help update the applications to better support iOS 13.
+A suite of digital photography and videography apps for iOS. It currently needs contributors to help update the applications to better support iOS 13.
 
 [Convene]: https://convene.zinc.coop/
-[Compensated]: https://github.com/zinc-collective/compensated
-[Catalog Choice]: https://www.catalogchoice.org
-[The Story of Stuff project]: https://storyofstuff.org
 [MomentPark]: https://www.momentpark.com
 
 ## Services
