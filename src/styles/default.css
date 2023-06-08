@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply p-0 bg-zinc-dark-purple text-white;
+  @apply p-0 bg-zinc-dark-purple text-white leading-relaxed;
 }
 
 h1, h2, h3, h4 {
@@ -38,14 +38,13 @@ a:visited:hover {
   @apply text-zinc-pastel-pink;
 }
 
+ul {
+  @apply list-disc list-inside;
+}
+
 ul, p {
   @apply my-2;
 }
-
-li {
-  @apply list-outside;
-}
-
 
 input[type="submit"] {
   @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-zinc-dark-purple bg-zinc-hot-pink transition ease-in-out duration-150;
