@@ -2,6 +2,7 @@
    "people": [
       {
          "name": "Zee Spencer",
+         "image": "/people/img/zspencer.jpg",
          "type": "member",
          "location": "San Francisco, CA",
          "links": {
