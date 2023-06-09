@@ -7,6 +7,7 @@ module.exports = function(config) {
   config.addPassthroughCopy("src/CNAME");
   config.addPassthroughCopy("src/**/*.pdf");
   config.addPassthroughCopy("src/**/*.jpg")
+  config.addPassthroughCopy("src/favicons")
 
   config.addWatchTarget("./src/styles/");
 
