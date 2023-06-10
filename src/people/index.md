@@ -1,6 +1,6 @@
 ---
 layout: default
-title: People
+title: About Us
 ---
 
 Some members of the Zinc Collective.
