@@ -2,13 +2,13 @@
    "people": [
       {
          "name": "Zee Spencer",
-         "type": "member",
+         "image": "/people/img/zspencer.jpg",
+         "type": "Member",
          "location": "San Francisco, CA",
          "links": {
-            "home": "https://www.zeespencer.com",
-            "professional social (Twitter)": "https://twitter.com/zspencer",
-            "professional social (LinkedIn)": "https://www.linkedin.com/in/zspencer/",
-            "personal social": "https://wandering.shop/@zee"
+            "Website": "https://www.zeespencer.com",
+            "Twitter": "https://twitter.com/zspencer",
+            "Mastodon": "https://wandering.shop/@zee"
          },
          "specialties": "Cooperative Finance and Operations, Software Architecture, Testing, and Engineering",
          "interests": "Reading and Story-Telling, Adventure and Story-Telling Games",
@@ -17,11 +17,11 @@
       {
          "name": "Ana Ulin",
          "image": "/people/img/anaulin.jpg",
-         "type": "maintainer",
+         "type": "Member",
          "location": "Oakland, CA",
          "links": {
-            "home": "https://anaulin.org",
-            "social (Mastodon)": "https://social.coop/@anaulin"
+            "Website": "https://anaulin.org",
+            "Mastodon": "https://social.coop/@anaulin"
          },
          "specialties": "Software Engineering: Backend, APIs, Infrastructure, Automation, Engineering Leadership",
          "interests": "Democratic Governance, Facilitation, Books, Cats, Knitting, Food",

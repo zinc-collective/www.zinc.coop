@@ -155,7 +155,6 @@ footer {
 }
 
 .person-basics li::before {
-  content: '>';
   @apply mr-1;
 }
 

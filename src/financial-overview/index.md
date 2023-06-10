@@ -4,6 +4,9 @@ title: Financial Overview for Zinc Collective, LLC
 ---
 We publish our Profit and Loss and Balance Sheet reports on a quarterly and annual basis as part of our commitment to public and community governance and oversight.
 
+See the latest updates <a href="https://opencollective.com/zinc-community/updates" target="_blank">here</a>.
+
+
 ## Q3 2020, July 1st through September 30th
 
 ### Q3 2020 Profit and Loss
