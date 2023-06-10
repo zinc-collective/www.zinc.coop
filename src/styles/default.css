@@ -117,7 +117,7 @@ footer {
   visibility: hidden;
   display: none;
   opacity: 0;
-  @apply absolute bg-zinc-dark-purple z-10 rounded-lg;
+  @apply absolute left-0 bg-zinc-dark-purple z-10 whitespace-nowrap border-b-2 border-l-2 border-r-2 border-zinc-pastel-pink;
 }
 
 .header-item:hover > .dropdown-container,
