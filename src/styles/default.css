@@ -22,20 +22,20 @@ h4 {
 }
 
 a {
-  @apply text-zinc-hot-pink;
+  @apply text-zinc-pastel-pink;
 }
 
 a:hover {
-  @apply text-zinc-pastel-pink;
+  @apply text-zinc-teal-blue;
 }
 
 /* Visited states in same color as not-visited states. */
 a:visited {
-  @apply text-zinc-hot-pink;
+  @apply text-zinc-pastel-pink;
 }
 
 a:visited:hover {
-  @apply text-zinc-pastel-pink;
+  @apply text-zinc-teal-blue;
 }
 
 ul {
@@ -47,7 +47,7 @@ ul, p {
 }
 
 input[type="submit"] {
-  @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-zinc-dark-purple bg-zinc-hot-pink transition ease-in-out duration-150;
+  @apply w-full inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-zinc-dark-purple bg-zinc-pastel-pink transition ease-in-out duration-150;
 }
 
 input[type="submit"]:active {
@@ -101,23 +101,23 @@ footer {
 }
 
 .header-item {
-  @apply px-2 py-2 text-zinc-hot-pink bg-zinc-dark-purple border-t-2 border-l-2 border-b-2 border-zinc-hot-pink;
+  @apply px-2 py-2 text-zinc-pastel-pink bg-zinc-dark-purple border-t-2 border-l-2 border-b-2 border-zinc-pastel-pink drop-shadow-xl;
 }
 
 .header-item:last-child {
-  @apply border-r-2 border-zinc-hot-pink;
+  @apply border-r-2 border-zinc-pastel-pink;
 }
 
 .header-item:hover,
 .header-item:active {
-  @apply bg-zinc-dark-purple text-zinc-hot-pink;
+  @apply bg-zinc-dark-purple text-zinc-teal-blue;
 }
 
 .dropdown-container {
   visibility: hidden;
   display: none;
   opacity: 0;
-  @apply absolute bg-zinc-dark-purple z-10;
+  @apply absolute left-0 top-11 bg-zinc-dark-purple z-10 whitespace-nowrap border-t-2 border-b-2 border-l-2 border-r-2 border-zinc-pastel-pink;
 }
 
 .header-item:hover > .dropdown-container,

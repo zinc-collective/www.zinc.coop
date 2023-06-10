@@ -26,7 +26,9 @@ A suite of digital photography and videography apps for iOS. It currently needs 
 
 ## Services
 
-In addition to our original products, some [Zinc Collective members](/people) are able to build, maintain and consult for values-aligned organizations. Our current capacity is in the areas of:
+In addition to our original products, some [Zinc Collective members](/people) are able to build, maintain and consult for values-aligned organizations. 
+
+Our current capacity is in the areas of:
 
 * research & product strategy
 * design & user experience
@@ -35,4 +37,4 @@ In addition to our original products, some [Zinc Collective members](/people) ar
 * quality assurance/testing
 * senior support, consulting and mentoring
 
- 💌 [Contact us](/contact-us) to talk more.
+ <p>💌 Contact us at <a href="mailto:hello@zinc.coop">hello@zinc.coop</a> to discuss how we can help you.</p>
