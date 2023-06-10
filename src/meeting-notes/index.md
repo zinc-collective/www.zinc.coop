@@ -4,7 +4,7 @@ title: Meeting Notes
 ---
 We currently have a monthly members-only meeting. We will publish meeting summaries here.
 
-See the latest updates [here](https://opencollective.com/zinc-community/updates).
+See the latest updates <a href="https://opencollective.com/zinc-community/updates" target="_blank">here</a>.
 
 ## Member meeting - November 15, 2020
 * Mostly socialized and caught up with one another.
