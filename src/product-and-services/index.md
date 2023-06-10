@@ -37,4 +37,4 @@ Our current capacity is in the areas of:
 * quality assurance/testing
 * senior support, consulting and mentoring
 
- <p>💌 Contact us at <a href="mailto:hello@zinc.coop">hello@zinc.coop</a> to discuss how we can help you.</p>
+ <p>💌 <a href="mailto:hello@zinc.coop">Contact us</a> to talk more.</p>
