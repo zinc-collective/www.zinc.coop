@@ -12,9 +12,9 @@ title: Updates
 We track our income and expenses across projects publicly in our:
 
 <ul>
-  <li><a href="https://opencollective.com/zinc-community/updates" target="_blank">Community Open Collective</a></li>
-  <li><a href="https://opencollective.com/zinc-community/updates" target="_blank">Convene Open Collective</a></li>
-  <li><a href="https://opencollective.com/zinc-community/updates" target="_blank">Moment Park Open Collective</a></li>
+  <li><a href="https://opencollective.com/zinc-community" target="_blank">Community Open Collective</a></li>
+  <li><a href="https://opencollective.com/convene" target="_blank">Convene Open Collective</a></li>
+  <li><a href="https://opencollective.com/moment-park" target="_blank">Moment Park Open Collective</a></li>
 </ul>
 
 Our unaudited quarterly and annual financial reports are available in our <a href="https://drive.google.com/drive/folders/1AuGzqGFKMpPxOvC2mSp1eezS_y_54wrC" target="_blank">Public Financial Reports folder</a>.
