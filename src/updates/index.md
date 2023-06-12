@@ -9,9 +9,13 @@ title: Updates
 
 ## Financial Overview
 
-Zinc Collective, LLC publishes our Profit and Loss and Balance Sheet reports on a quarterly and annual basis as part of our commitment to public and community governance and oversight.
+We track our income and expenses across projects publicly in our:
 
-See the latest updates <a href="https://opencollective.com/zinc-community/updates" target="_blank">here</a>.
+<a href="https://opencollective.com/zinc-community/updates" target="_blank">Community Open Collective</a>.
+<a href="https://opencollective.com/zinc-community/updates" target="_blank">Convene Open Collective</a>.
+<a href="https://opencollective.com/zinc-community/updates" target="_blank">Moment Park Open Collective</a>.
+
+Our unaudited quarterly and annual financial reports are available in our <a href="https://drive.google.com/drive/folders/1AuGzqGFKMpPxOvC2mSp1eezS_y_54wrC" target="_blank">Public Financial Reports folder</a>.
 
 <details>
 
