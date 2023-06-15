@@ -30,12 +30,8 @@ In addition to our original products, some [Zinc Collective members](/about-us) 
 
 Our current capacity is in the areas of:
 
-* research & product strategy
-* design & user experience
-* back-end engineering
-* front-end development
-* quality assurance/testing
-* senior support, consulting and mentoring
+* Hosting a Space on [Convene](https://convene.zinc.coop/)
+* Hosting a [Convene](https://convene.zinc.coop/) Neighborhood
 
  <p>💌 Email us at <a href="mailto:hello@zinc.coop">hello@zinc.coop</a> to talk more.</p>
   
