@@ -3,6 +3,10 @@ layout: layouts/default.njk
 ---
 # The Zinc Collective
 
+🤗 We are an open-source volunteer coding group of diverse individuals. 
+
+🗓️ We meet weekly to work on coding projects.
+
 We strive for a post-scarcity society by:
 
 *   Creating and capturing value with human-centered, sustainable digital products and services.
