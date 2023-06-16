@@ -10,9 +10,8 @@ module.exports = {
       colors: {
         'zinc-purple': '#332658',
         'zinc-dark-purple': '#1F1735',
-        'zinc-hot-pink': '#F43EF3',
         'zinc-pastel-pink': '#FE9BFF',
-        'zinc-darker-pastel-pink': '#C966CA',
+        'zinc-pastel-blue': '#9BE4FF',
       }
     }
   }
