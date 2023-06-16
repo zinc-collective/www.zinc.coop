@@ -12,7 +12,7 @@ module.exports = {
         'zinc-dark-purple': '#1F1735',
         'zinc-hot-pink': '#F43EF3',
         'zinc-pastel-pink': '#FE9BFF',
-        'zinc-teal-blue': '#38ADB5',
+        'zinc-darker-pastel-pink': '#C966CA',
       }
     }
   }
