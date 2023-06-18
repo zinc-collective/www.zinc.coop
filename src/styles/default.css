@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  @apply text-zinc-pastel-red;
+  @apply text-zinc-pastel-purple;
 }
 
 /* Visited states in same color as not-visited states. */
@@ -35,7 +35,7 @@ a:visited {
 }
 
 a:visited:hover {
-  @apply text-zinc-pastel-red;
+  @apply text-zinc-pastel-purple;
 }
 
 ul {
@@ -101,12 +101,12 @@ footer {
 }
 
 .header-item {
-  @apply px-2 py-2 text-zinc-pastel-pink drop-shadow-xl;
+  @apply px-2 py-2 ml-2 text-zinc-pastel-pink drop-shadow-xl;
 }
 
 .header-item:hover,
 .header-item:active {
-  @apply bg-zinc-dark-purple text-zinc-pastel-red;
+  @apply text-zinc-pastel-purple;
 }
 
 .dropdown-container {
