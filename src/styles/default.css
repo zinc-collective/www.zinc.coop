@@ -101,11 +101,7 @@ footer {
 }
 
 .header-item {
-  @apply px-2 py-2 text-zinc-pastel-pink bg-zinc-dark-purple border-t-2 border-l-2 border-b-2 border-zinc-pastel-pink drop-shadow-xl;
-}
-
-.header-item:last-child {
-  @apply border-r-2 border-zinc-pastel-pink;
+  @apply px-2 py-2 text-zinc-pastel-pink drop-shadow-xl;
 }
 
 .header-item:hover,
