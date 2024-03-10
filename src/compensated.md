@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
+title: Compensated
 ---
-
-# Compensated
 
 Build products. Get paid.
 

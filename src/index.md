@@ -1,8 +1,7 @@
 ---
 layout: layouts/default.njk
+title: The Zinc Collective
 ---
-# The Zinc Collective
-
 🤗 We are an open-source volunteer coding group of diverse individuals.
 
 🗓️ We meet weekly to work on coding projects.
