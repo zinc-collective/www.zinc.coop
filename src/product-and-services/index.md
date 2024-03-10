@@ -26,12 +26,11 @@ A suite of digital photography and videography apps for iOS. It currently needs 
 
 ## Services
 
-In addition to our original products, some [Zinc Collective members](/about-us) are able to build, maintain and consult for values-aligned organizations. 
+In addition to our original products, some [Zinc Collective members](/about-us) are able to build, maintain and consult for values-aligned organizations.
 
 Our current capacity is in the areas of:
 
 * Hosting a Space on [Convene](https://convene.zinc.coop/)
 * Hosting a [Convene](https://convene.zinc.coop/) Neighborhood
 
- <p>💌 Email us at <a href="mailto:hello@zinc.coop">hello@zinc.coop</a> to talk more.</p>
-  
+<p>💌 Email us at <a class="underline" href="mailto:hello@zinc.coop">hello@zinc.coop</a> to talk more.</p>
